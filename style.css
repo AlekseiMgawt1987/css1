@@ -1,7 +1,77 @@
 a{
-    color:rgb(246, 212, 246);
-    font-size: 13px;
+    color:rgb(15, 15, 15);
+    font-size: 40px;
     }
 div{
-    color: rgb(255, 0, 13);
+    color: rgb(0, 225, 255);
+}
+#moya_ssilka{
+    color: green
+}
+#testovaya_ssilka{
+    font-size: 20px;
+    color: rgb(6, 2, 54);
+}
+.human {
+    color: red;font-size: 32px;
+}
+.animal {
+    color: yellow;
+}
+.lion {
+    color: rgb(116, 12, 235);
+}
+.monkey {
+    color: rgb(243, 9, 9);
+}
+.fish {
+    color: #6d3265;
+}
+.message {
+    color: rgb(163, 224, 18);
+    background-color: rgb(243, 6, 6);
+    border:3px solid #080808;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.success {
+    background-color: white;
+    color: #080808;
+}
+.fail {
+    background-color: rgb(33, 97, 153);
+color: rgb(7, 7, 7);
+}
+.warning {
+    background-color: crimson;
+    color: darkred;
+}
+.message:hover {
+    border: 10px solid #e90c55
+}
+
+#test {
+    transform:rotate(20deg) scale(0.5);
+    transition: 1s all;
+    background-color:green;
+    color:red;
+    padding:15px;
+    margin:5px;
+    border:7px solid black;
+    border-radius:20px;
+    opacity:1;
+    box-shadow: 33px 15px 0px #080808;
+    width: 50%;
+    height: 150px;
+    text-align:center;
+    font-size: 30px;
+}
+#test:hover {
+    color: #000;
+    padding: 2px;
+    transform: rotate(90deg) scale(0.3);
+}
+body {
+    background-image: url(image.jpg);
 }
